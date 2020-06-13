@@ -3,6 +3,7 @@ package Java.Basic.Programs.BinarySearch;
 public class BinarySearch {
 
     public static void main(String[] args) {
+        //init var
         int num = 234523;
         //init array
         //init array
