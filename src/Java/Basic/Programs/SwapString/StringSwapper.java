@@ -4,7 +4,7 @@ public class StringSwapper {
     public static void main(String[] args) {
         //initializiong variables
         String str1 = "SsAaGgRr";
-        String str2 = "Pawarooooooooooooooooooooooo.........";
+        String str2 = "Pawarooooooooooooooooooooooo.........!!!!!";
         System.out.println("S1: "+str1);
         System.out.println("S2: "+str2);
         str2 = str1+str2;
