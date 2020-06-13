@@ -2,9 +2,9 @@ package Java.Basic.Programs.RightRotate;
 
 public class RightRotate2 {
     public static void main(String[] args) {
-        int arr[] = {1,2,3,4,5};
+        int[] arr = {1,2,3,4,5};
         for(int i=0; i<arr.length; i++) System.out.print(arr[i]);
-        int res[] = rotateKaroBhai(arr);
+        int[] res = rotateKaroBhai(arr);
         System.out.print("\n");
         for(int i=0; i<arr.length; i++) System.out.print(res[i]);
     }

@@ -5,7 +5,7 @@ import java.util.Map;
 public class FindFrequency {
 
     public static void main(String[] args) {
-        int arr[] = {1,5,7,3,5,2,1,4,9,5,2,3,7,9,5,3,2,6,3,6,78,3,5,7,3};
+        int[] arr = {1,5,7,3,5,2,1,4,9,5,2,3,7,9,5,3,2,6,3,6,78,3,5,7,3};
         findF(arr);
     }
 
