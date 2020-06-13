@@ -2,7 +2,7 @@ package Java.Basic.Programs.Bubble;
 //SagarShradhaSort algorithm.
 public class SelectionSort {
     public static void main(String[] args) {
-        int arr[] = {-1,-2,-3,-4,-4};
+        int[] arr = {-1,-2,-3,-4,-4};
         int l = arr.length;
         int min, index=0,temp=0;
         for (int i=0; i<l; i++){

@@ -6,7 +6,7 @@ public class CheckStringPermutation {
         if(str1.length()!=str2.length()) return false;
 
         //boolean bArr[] = new boolean[256];
-        int bArr[] = new int[256];
+        int[] bArr = new int[256];
 
         for (int i=0; i<str1.length(); i++){
             bArr[str1.charAt(i)]++;

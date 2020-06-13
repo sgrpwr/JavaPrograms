@@ -3,9 +3,9 @@ package Java.Basic.Programs.LeftRotate;
 public class LeftRotate {
 
     public static void main(String[] args) {
-        int arr[] = {1,2,3,4,5,6,7};
+        int[] arr = {1,2,3,4,5,6,7};
         for(int i=0; i<arr.length; i++) System.out.print(arr[i]);
-        int res[] = rotateKaroBhai(arr);
+        int[] res = rotateKaroBhai(arr);
         System.out.print("\n");
         for(int i=0; i<arr.length; i++) System.out.print(res[i]);
     }
