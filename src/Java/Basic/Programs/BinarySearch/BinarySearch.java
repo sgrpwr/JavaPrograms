@@ -5,7 +5,11 @@ public class BinarySearch {
     public static void main(String[] args) {
         int num = 234523;
         //init array
+        //init array
+        //here
+        //init array
         int[] arr = {1,2,3,4,5,6,7,1234,23421,234523};
+        //method calling
         String res = doesExist(num,arr);
         System.out.println(res);
     }
