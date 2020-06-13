@@ -4,6 +4,7 @@ public class Palindrome {
     public static void main(String[] args){
         int n=123454321,d=0,r=0;
         int temp=n;
+        //looping to breaking the digits
         while(n!=0){
             d=n%10;
             r = r*10+d;
