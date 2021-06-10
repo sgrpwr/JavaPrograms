@@ -189,6 +189,41 @@ public class SinglyLinkedList {
         }
     }
 
+    public void rotateRightByK(int k){
+        if(!isEmpty()){
+            k = k%length();
+            for(int i=0;i<k;i++){
+                ListNode temp = head;
+                while(temp.next.next != null){
+                    temp = temp.next;
+                }
+                ListNode last = temp.next;
+                temp.next = null;
+                last.next = head;
+                head = last;
+            }
+            print();
+        }
+    }
+
+    public void rotateLeftByK(int k){
+        if(!isEmpty()){
+            k = k%length();
+            for(int i=0;i<k;i++){
+                ListNode temp = head;
+                ListNode first = head;
+                while(temp.next != null){
+                    temp = temp.next;
+                }
+                head = first.next;
+                first.next = null;
+                temp.next = first;
+
+            }
+            print();
+        }
+    }
+
     public static void main(String[] args) {
         SinglyLinkedList list = new SinglyLinkedList();
 
@@ -210,8 +245,10 @@ public class SinglyLinkedList {
         System.out.println(list.length());
         System.out.println(list.findMiddle());
         System.out.println(list.search(5));
-        list.reverse();*/
+        list.reverse();
         list.makeLoop();
         System.out.println(list.detectLoop());
+        list.rotateRightByK(13);
+        list.rotateLeftByK(1);*/
     }
 }
