@@ -3,7 +3,6 @@ package Java.Basic.Programs.SwapString;
 public class StringSwapper {
     /*public static void main(String[] args) {
         String str1 = "SsAaGgRr";
-        //str2
         String str2 = "Pawaroooooooooooooooooooooooooooooo";
         System.out.println("S1: "+str1);
         System.out.println("S2: "+str2);
