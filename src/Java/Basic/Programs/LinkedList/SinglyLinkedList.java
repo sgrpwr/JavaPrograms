@@ -224,10 +224,31 @@ public class SinglyLinkedList {
         }
     }
 
+    public void removeDuplicatesFromSorted(){
+        if(!isEmpty()){
+         ListNode temp = head;
+         while(temp.next!=null){
+             ListNode current = temp.next;
+             if(current.data == temp.data){
+                 temp.next = current.next;
+                 current.next = null;
+             }else {
+                 temp = temp.next;
+             }
+         }
+        }
+        print();
+    }
+
     public static void main(String[] args) {
         SinglyLinkedList list = new SinglyLinkedList();
 
-        for (int i = 0; i <= 10; i++) list.addLast(i);
+        //for (int i = 0; i <= 10; i++) list.addLast(i);
+        list.addLast(1);
+        list.addLast(1);
+        list.addLast(1);
+        list.addLast(1);
+        list.addLast(3);
         list.print();
       /*  list.addFirst(1);
         System.out.println(list.isEmpty());
@@ -250,5 +271,6 @@ public class SinglyLinkedList {
         System.out.println(list.detectLoop());
         list.rotateRightByK(13);
         list.rotateLeftByK(1);*/
+        list.removeDuplicatesFromSorted();
     }
 }
