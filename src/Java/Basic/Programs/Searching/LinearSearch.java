@@ -1,4 +1,4 @@
-package Java.Basic.Programs.LinearSearch;
+package Java.Basic.Programs.Searching;
 
 public class LinearSearch {
     public static void main(String[] args) {
