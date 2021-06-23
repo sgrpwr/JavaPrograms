@@ -12,4 +12,11 @@ public class StringSwapper {
         System.out.println("S1: "+str1);
         System.out.println("S2: "+str2);
     }*/
+
+    public static void main(String[] args) {
+        String s = "sagar";
+        char[] c = s.toCharArray();
+         s = String.valueOf(c);
+        System.out.println(s);
+    }
 }
