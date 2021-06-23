@@ -4,9 +4,9 @@ public class FindMinimumMaximum {
     public static void main(String[] args) {
         int[] oneDArray = {12,32,5,76,3,45,76};
         int[][] twoDArray = {{1,2,3},{4,95,6},{7,3,9}};
-        //int result = findMinimumElement1D(oneDArray, result);
-        //int result = findMaximumElement1D(oneDArray, result);
-        //int result = findMinimumElement2D(twoDArray, result);
+        //int result = findMinimumElement1D(oneDArray);
+        //int result = findMaximumElement1D(oneDArray);
+        //int result = findMinimumElement2D(twoDArray);
         int result = findMaximumElement2D(twoDArray);
         System.out.println(result);
     }
